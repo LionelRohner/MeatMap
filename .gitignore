@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Node.js (frontend) - Block accidental frontend commits from backend
+frontend/node_modules/
