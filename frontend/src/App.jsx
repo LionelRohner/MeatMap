@@ -7,8 +7,11 @@ function App() {
     <div className="app">
       <h1>🥩MeatMap🥩</h1>
       <p>Explore meat cuts in different languages.</p>
-      <div className="animal-placeholder">
-        <p>[SVG will go here]</p>
+      <<img
+        src={cowSVG}
+        alt="CowDiag"
+        className="cow-diag"
+        onClick={() => alert("Clicked!")}
       </div>
     </div>
   );
